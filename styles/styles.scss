@@ -4,8 +4,6 @@ header {
     width: 120px;
     height: 28px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   .haderdiv {
     display: flex;
@@ -17,6 +15,8 @@ header {
     width: 196px;
     height: 16px;
     display: flex;
+    border-bottom: 1px;
+    border-color: #777d59;
     justify-content: bottom;
   }
   .searchdiv {
@@ -25,6 +25,7 @@ header {
     border-bottom: 1px;
     border-color: #777d59;
     justify-content: bottom;
+    display: flex;
   }
   .headericons {
     font-size: 16px;
@@ -52,4 +53,60 @@ header {
     flex-direction: row;
     color: #0e1020;
   }
+}
+
+.reklama1 {
+  background-image: url(../images/Mainphoto.png);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  margin-top: 32px;
+  padding: 92px 76px;
+  box-sizing: border-box;
+}
+.reklmistexti {
+  right: 80%;
+  transform: translate(40%);
+  p {
+    font-size: 16px;
+    color: #ab1d46;
+    display: flex;
+    justify-content: flex-start;
+  }
+  h1 {
+    margin-top: 24px;
+    font-size: 56px;
+    color: #777d59;
+    display: flex;
+    justify-content: flex-start;
+  }
+  div {
+    margin-top: 48px;
+    width: 124px;
+    height: 48px;
+    background-color: #777d59;
+    border-radius: 10px;
+    padding: 12px 16px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    p {
+      color: white;
+    }
+  }
+}
+.padding {
+  padding: 0px 100px;
+}
+.karuselisseqcia {
+  color: #0e1020;
+  font-size: 40px;
+  margin-top: 96px;
 }
