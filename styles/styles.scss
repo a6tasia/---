@@ -1,0 +1,55 @@
+header {
+  padding: 24px 100px 0px;
+  .logo {
+    width: 120px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .haderdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .search {
+    width: 196px;
+    height: 16px;
+    display: flex;
+    justify-content: bottom;
+  }
+  .searchdiv {
+    width: 164px;
+    height: 16px;
+    border-bottom: 1px;
+    border-color: #777d59;
+    justify-content: bottom;
+  }
+  .headericons {
+    font-size: 16px;
+    color: #777d59;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .language {
+    font-size: 16px;
+  }
+  .kategoriebisdiv {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+  }
+  .kategoriebi {
+    // margin-left: 330px;
+    width: 820px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: #0e1020;
+  }
+}
