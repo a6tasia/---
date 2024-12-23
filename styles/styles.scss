@@ -118,19 +118,40 @@ header {
       color: white;
     }
   }
-  // left: 60%;
-
-  // transform: translate(-60% -40%);
 }
 .padding {
   padding: 0px 100px;
   box-sizing: border-box;
 }
+
 .karuselisseqcia {
   color: #0e1020;
   font-size: 40px;
   margin-top: 96px;
+  margin-bottom: 40px;
 }
+
+.karuseli {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  i {
+    font-size: 24px;
+    color: #000000;
+  }
+}
+
+.karuseliscardi {
+  img {
+    display: flex;
+  }
+  p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 24px;
+  }
+}
+
 .reklama2 {
   background-image: url(../images/banner2.png);
   background-repeat: no-repeat;
@@ -190,6 +211,7 @@ footer {
   box-sizing: border-box;
 
   .footer {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: top;

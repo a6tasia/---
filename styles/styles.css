@@ -117,6 +117,26 @@ header .kategoriebi {
   color: #0e1020;
   font-size: 40px;
   margin-top: 96px;
+  margin-bottom: 40px;
+}
+
+.karuseli {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.karuseli i {
+  font-size: 24px;
+  color: #000000;
+}
+
+.karuseliscardi img {
+  display: flex;
+}
+.karuseliscardi p {
+  font-size: 20px;
+  color: #000000;
+  margin-top: 24px;
 }
 
 .reklama2 {
@@ -174,6 +194,7 @@ footer {
   box-sizing: border-box;
 }
 footer .footer {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: top;
