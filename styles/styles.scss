@@ -11,13 +11,7 @@ header {
     align-items: center;
     flex-direction: row;
   }
-  // .nav {
-  //   display: flex;
-  //   justify-content: space-between;
-  //   align-items: center;
-  //   width: 420px;
-  //   height: 32px;
-  // }
+
   .search {
     width: 196px;
     height: 32px;
@@ -44,17 +38,35 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    i:hover {
+      color: #ab1d46;
+    }
   }
   .icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    i {
+      margin-right: 20px;
+    }
   }
 
   .language {
     font-size: 16px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    .en {
+      display: none;
+    }
+    &:hover {
+      .ge {
+        display: none;
+      }
+      .en {
+        display: block;
+      }
+    }
   }
   .kategoriebisdiv {
     display: flex;
@@ -62,7 +74,6 @@ header {
     margin-top: 24px;
   }
   .kategoriebi {
-    // margin-left: 330px;
     width: 820px;
     height: 16px;
     display: flex;
@@ -70,6 +81,10 @@ header {
     align-items: center;
     flex-direction: row;
     color: #0e1020;
+    p:hover {
+      color: #ab1d46;
+      cursor: pointer;
+    }
   }
 }
 
@@ -116,6 +131,16 @@ header {
 
     p {
       color: white;
+      &:hover {
+        color: #ab1d46;
+      }
+    }
+    &:hover {
+      background-color: white;
+      border: 1.5px solid #ab1d46;
+      p {
+        color: #ab1d46;
+      }
     }
   }
 }
@@ -139,17 +164,33 @@ header {
     font-size: 24px;
     color: #000000;
   }
+  i:hover {
+    color: #ab1d46;
+    cursor: pointer;
+  }
+  .karuseliscardi {
+    img:hover {
+      border: 1.5px solid #ab1d46;
+      box-sizing: border-box;
+    }
+    p:hover {
+      color: #ab1d46;
+    }
+  }
 }
 
 .karuseliscardi {
   img {
     display: flex;
+    width: 100%;
+    height: 100%;
   }
   p {
     font-size: 20px;
     color: #000000;
     margin-top: 24px;
   }
+  cursor: pointer;
 }
 
 .reklama2 {
@@ -170,12 +211,17 @@ header {
   justify-content: space-between;
 
   width: 100%;
-  // justify-content: space-around;
 }
 
 .banerisdiv {
   width: 325px;
   height: 572px;
+  .div1:hover {
+    background-color: #bc4a6b;
+  }
+  .div2:hover {
+    background-color: #bc4a6b;
+  }
 
   .div1 {
     background-color: #92977a;
@@ -195,6 +241,9 @@ header {
     padding: 24px;
     box-sizing: border-box;
     margin-top: 34px;
+    &hover {
+      background-color: #ab1d46;
+    }
 
     p {
       font-size: 32px;

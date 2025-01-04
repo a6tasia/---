@@ -39,15 +39,31 @@ header .headericons {
   align-items: center;
   flex-direction: row;
 }
+header .headericons i:hover {
+  color: #ab1d46;
+}
 header .icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+header .icons i {
+  margin-right: 20px;
+}
 header .language {
   font-size: 16px;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+}
+header .language .en {
+  display: none;
+}
+header .language:hover .ge {
+  display: none;
+}
+header .language:hover .en {
+  display: block;
 }
 header .kategoriebisdiv {
   display: flex;
@@ -62,6 +78,10 @@ header .kategoriebi {
   align-items: center;
   flex-direction: row;
   color: #0e1020;
+}
+header .kategoriebi p:hover {
+  color: #ab1d46;
+  cursor: pointer;
 }
 
 .reklama1 {
@@ -107,6 +127,16 @@ header .kategoriebi {
 .reklmistexti div p {
   color: white;
 }
+.reklmistexti div p:hover {
+  color: #ab1d46;
+}
+.reklmistexti div:hover {
+  background-color: white;
+  border: 1.5px solid #ab1d46;
+}
+.reklmistexti div:hover p {
+  color: #ab1d46;
+}
 
 .padding {
   padding: 0px 100px;
@@ -124,15 +154,33 @@ header .kategoriebi {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 .karuseli i {
   font-size: 24px;
   color: #000000;
 }
+.karuseli i:hover {
+  color: #ab1d46;
+  cursor: pointer;
+}
+.karuseli .karuseliscardi img:hover {
+  border: 1.5px solid #ab1d46;
+  box-sizing: border-box;
+}
+.karuseli .karuseliscardi p:hover {
+  color: #ab1d46;
+}
 
+.karuseliscardi {
+  cursor: pointer;
+}
 .karuseliscardi img {
   display: flex;
+  width: 100%;
+  height: 100%;
 }
+
 .karuseliscardi p {
   font-size: 20px;
   color: #000000;
@@ -162,6 +210,12 @@ header .kategoriebi {
   width: 325px;
   height: 572px;
 }
+.banerisdiv .div1:hover {
+  background-color: #bc4a6b;
+}
+.banerisdiv .div2:hover {
+  background-color: #bc4a6b;
+}
 .banerisdiv .div1 {
   background-color: #92977a;
   height: 180px;
@@ -179,6 +233,9 @@ header .kategoriebi {
   padding: 24px;
   box-sizing: border-box;
   margin-top: 34px;
+}
+.banerisdiv .div2hover {
+  background-color: #ab1d46;
 }
 .banerisdiv .div2 p {
   font-size: 32px;
@@ -231,4 +288,4 @@ footer .footerchamonatvali p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */

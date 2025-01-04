@@ -1,0 +1,30 @@
+@media screen and (max-width: 1024px) {
+  .padding {
+    padding: 0px 70px;
+    box-sizing: border-box;
+  }
+  .karuselisseqcia {
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 64px;
+  }
+  .karuseli {
+    gap: 8px;
+  }
+  .karuseli i {
+    font-size: 20px;
+  }
+  .karuseli .karuseliscardi {
+    cursor: pointer;
+  }
+  .karuseli .karuseliscardi img {
+    display: flex;
+    width: 90%;
+    height: 90%;
+  }
+  .karuseli .karuseliscardi p {
+    font-size: 16px;
+    color: #000000;
+    margin-top: 18px;
+  }
+}/*# sourceMappingURL=media.css.map */
